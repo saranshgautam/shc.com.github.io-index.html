@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Saransh Health Service</title>
+	<style >
+		*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+
+		body
+		{
+			background-image: url('cross.jpg');
+			background-repeat: no-repeat;
+			background-position: center;
+			background-attachment: fixed;
+			overflow: auto;
+		}
+		header
+		{
+			background-color: #beef00;
+			color: black;
+			font-weight: bold;
+			width: 100%;
+			position: sticky;
+			top: 0;
+		}
+		.head_span
+		{
+			font-size: 24px;
+			
+			font-family: Times New Roman;
+			margin: auto;
+			color: black;
+			text-decoration: none;
+
+		}
+		img
+		{
+			width: 280px;
+			height: 280px;
+			margin: 40px;
+			border-radius: 60%;
+			border: 3px solid black;
+		}
+		.trigger
+		{
+			float: left;
+		}
+		.search
+		{
+			margin-left: auto;
+			font-family: cursive;
+			color: blue;
+			font-size: 30px;
+			font-weight: bold;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 5px 3px 4px #696969;
+		}
+		.home h1
+		{
+			
+			font-family: bookman, serif;
+			text-align: center;
+			font-size: 42px;
+			padding: 5px;
+			border-top: 1px solid black;
+		}
+		.home p, li
+		{
+			font-family: Lucida, sans-serif;
+			text-align: justify;
+			font-size: 24px;
+			padding: 5px;
+			margin-top: 10px;
+			border-bottom: 1px solid black;
+
+
+		}
+		.home ul
+		{
+			list-style-type: square;
+		}
+		.home
+		{
+			
+			background-color: #fff5d7;
+			border-top: 1px solid black;
+			margin-bottom: 10px;
+		}
+		.home h2
+		{
+			font-size: 36px;
+			color: red;
+			font-family: bookman, serif;
+			margin-top: 10px;
+			padding: 5px;
+			padding-left: 20px;
+			
+		}
+		.home ul
+		{
+			margin-left: 30px;
+		}
+		#diseases h1
+		{
+			font-family: Courier, monospace;
+			margin-top: 20px;
+			color: brown;
+			font-size: 40px;
+			text-align: center;
+
+		}
+		#myBtn 
+		{
+			display: none;
+			position: fixed;
+			bottom: 20px;
+			right: 30px;
+			z-index: 99;
+			font-size: 18px;
+			border: none;
+			outline: none;
+			background-color: red;
+			color: white;
+			cursor: pointer;
+			padding: 15px;
+			border-radius: 4px;
+		}
+		#myBtn:hover 
+		{
+			background-color: #555;
+		}
+
+	</style>
+</head>
+<body>
+	<button onclick="topFunction()" id="myBtn" title="Go To Top">Top</button>
+	<header>
+		<h1>Saransh Health Services &nbsp; &nbsp;
+		<span class ="head_span"><a href="#home" class="head_span">Home</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="#diseases" class="head_span">Search Diseases</a> &nbsp; &nbsp; | &nbsp; &nbsp; <a href="#" class="head_span">Contact Us</a> &nbsp; &nbsp; &nbsp;</span> 
+		</h1>
+	</header>
+	<div class="home">
+		<h1>Why society needs us?</h1>
+		<p>We here at Saransh Health Service aim to provide the society a platform through which every citizen can get to know about the major diseases prevailing in the society. This is an initiative which tends to educate every native of this beautiful planet about diseases. Here users will get to know about the origin of the disease, some precautions, modes of spread, vaccine, and the most important contact details of the doctors specialised in this field who can help you get cure.</p>
+		<h2>Do you know?</h2>
+		<ul>
+			<li>The 1890's flu killed more than 1 million people 	in Russia in less than 5 weeks.</li>
+			<li>The plague in 1720-23 killed nearly 30% 	population of Marseille, France.</li>
+			<li>Nearly 500 million fell victim to Spanish flu in 1918. Out of them nearly one-fifth died.</li>
+			<li>AIDS had claimed an estimated 35 million lives till late 20th century.</li>
+			<li>Swine flu in 2009 infected as many as 1.4 billion people.</li>
+		</ul>
+		<h2>Our Aim:</h2>
+		<p >Here aware people about such epidemic diseases, which once caused a lot of loss to life and economy in history. We dream of a future where every one will be aware about such diseases and to further coming ones also. For that our executives are continuously adding updates to this website. All we target is to not let such epidemics happen again, and destroy our precious human resource.</p>
+	</div>
+	<div id="diseases">
+		<h1>Search here for any disease</h1>
+		<div class="trigger">
+			<figure><a href="aids.html"  class="search"><img src="aids.jpg" alt="Image not available"></a><figcaption class="search"><a href="aids.html"  class="search">HIV/AIDS (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="chicken_pox.html"  class="search"><img src="chicken_pox.jpg" alt="Image not available"></a><figcaption class="search"><a href="chicken_pox.html"  class="search">Chicken Pox (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="cholera.html"  class="search"><img src="cholera.jpg" alt="Image not available"></a><figcaption class="search"><a href="cholera.html"  class="search">Cholera (Bacterial)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="common_cold.html" class="search"><img src="common_cold.jpg" alt="Image not available"></a><figcaption class="search"><a href="common_cold.html" class="search">Common Cold (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="corona.html" class="search"><img src="corona.jpg" alt="Image not available"></a><figcaption class="search"><a href="corona.html" class="search">Corona (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="dengue.html" class="search"><img src="dengue.jpg" alt="Image not available"></a><figcaption class="search"><a href="dengue.html" class="search">Dengue (Viral)</a></figcaption></figure>	
+		</div>
+		<div class="trigger">
+			<figure><a href="hepatitis.html" class="search"><img src="hepatitis.jpg" alt="Image not available"></a><figcaption class="search"><a href="hepatitis.html" class="search">Hepatitis (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="influenza.html" class="search"><img src="influenza.jpg" alt="Image not available"></a><figcaption class="search"><a href="influenza.html" class="search">Influenza (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="malaria.html" class="search"><img src="malaria.jpg" alt="Image not available"></a><figcaption class="search"><a href="malaria.html" class="search">Malaria (Viral)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="meningitis.html" class="search"><img src="meningitis.jpg" alt="Image not available"></a><figcaption class="search"><a href="meningitis.html" class="search">Meningitis (Bacterial)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="#" class="search"><img src="plague.jpg" alt="Image not available"></a><figcaption class="search"><a href="#" class="search">Plague (Bacterial)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<figure><a href="#" class="search"><img src="pneumonia.jpg" alt="Image not available"></a><figcaption class="search"><a href="#" class="search">Pneumonia (Bacterial)</a></figcaption></figure>
+		</div>
+		<div class="trigger">
+			<a href="#" class="search"><img src="polio.jpg" alt="Image not available"><figcaption class="search">Polio (Viral)</figcaption></a>
+		</div>
+		<div class="trigger">
+			<a href="#" class="search"><img src="tetanus.jpg" alt="Image not available"><figcaption class="search">Tetanus (Bacterial)</figcaption></a>
+		</div>
+		<div class="trigger">
+			<a href="#" class="search"><img src="tuberclosis.jpg" alt="Image not available"><figcaption class="search">Tuberclosis (Bacterial)</figcaption></a>
+		</div>
+		<div class="trigger">
+			<a href="#" class="search"><img src="typhiod.jpg" alt="Image not available"><figcaption class="search">Typhiod (Bacterial)</figcaption></a>	
+		</div>
+	</div>
+	<script type="text/javascript">
+		var button = document.getElementById("myBtn");
+		window.onscroll = function()
+		{
+			scrollFunction()
+		};
+		function scrollFunction()
+		{
+			if(document.body.scrollTop > 900 || document.documentElement.scrollTop > 900)
+			{
+				button.style.display = "block";
+			}
+			else
+			{
+				button.style.display = "none";
+			}
+		}
+		function topFunction()
+		{
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+
+		}
+	</script> 
+</body>
+</html>

@@ -1,0 +1,52 @@
+*
+		{
+			margin: 0px;
+			padding: 0px;
+		}
+		#choice img
+		{
+			width: 100px;
+			height: 100px;
+			margin: 30px;
+			margin-left: 75px;
+			border-radius: 10px;
+			border: 3px solid black;
+
+		}
+		#choice img:hover
+		{
+			box-shadow: 5px 5px 5px grey;
+		}
+		#choice
+		{
+			margin-left: auto;
+			font-family: cursive;
+			color: red;
+			font-size: 30px;
+			font-weight: bold;
+			text-decoration: none;
+			text-align: center;
+			text-shadow: 5px 3px 4px #696969;
+
+		}
+		#option
+		{
+			float: left;
+			width: 250px;
+		}
+		#main
+		{
+			width: 100%;
+			overflow: auto;
+		}
+		#show
+		{
+			width: 100%;
+			overflow: auto;
+		}
+		iframe
+		{
+			width: 100%;
+			overflow: auto;
+			height: 600px;
+		}

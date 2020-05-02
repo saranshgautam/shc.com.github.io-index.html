@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doctor details</title>
+	<link rel="stylesheet" type="text/css" href="doc.css">
+</head>
+<body>
+	
+	<p>Select your city</p>
+	<label for="doctors"></label>
+	<select id="search" name="consulting">
+		<option value="bangalore">Bangalore</option>
+		<option value="chennai">Chennai</option>
+		<option value="delhi">Delhi</option>
+		<option value="jaipur">Jaipur</option>
+		<option value="kolkata">Kolkata</option>
+		<option value="mumbai">Mumbai</option>		
+	</select>
+	<button type="button" onclick="myfunction()" id="enter">Enter</button>
+	<div id="a">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/8a82a1c4-ef42-4311-aba1-20f968f9da4c.jpg?i_type=t_100x100" alt="Dr. Dhananjay Bhaskarachrar">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Dhananjay Bhaskarachrar</b></h1>
+			<p>
+				MBBS, Fellowship in Diabetology, Post Graduate Diploma in Endocrinology, PG Diploma In Emergency Trauma Care<br>
+				General Physician, Emergency Medicine<br>
+				Experience : 18 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('DB').style.display='block' " style="height: 20px;">More...</button>
+		<div id="DB" style="display: none;">
+			<p>
+				Dr. Dhananjay Bhaskarachrar is a General Physician,Diabetologist and Emergency Medicine in Bommanahalli, Bangalore and has an experience of 10 years in these fields. Dr. Dhananjay Bhaskarachrar practices at DInka Multispeciality Clinic in Bommanahalli, Bangalore and Rajashri Grandhim Speciality Hospital in Bilekahalli, Bangalore. He completed MBBS from JSS University, Mysore in 2001,Fellowship in Diabetology from Christian Medical College & Hospital, Vellore in 2012 and Diploma in Emergency Medicine from Wockhardt Hospital in association with Harward Medical Intrrnational in 2009.<br>
+
+				He is a member of Life time membership – Society for Emergency Medicine India ( SEMI),life time member for Indian medical association (IMA),Royal College of Physicians certification in Urinary Tract infection in Adults and Sub Investigator for -MICHELANGELO: OASIS –6 (STEMI), COMPOUND: Fondaparinux.. Some of the services provided by the doctor are: Health Checkup (General),Robotic Surgery,Geriatric Healthcare,Well Woman Healthcheck and Measles Treatment etc.
+			</p>
+			<button type="button" onclick="document.getElementById('DB').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="b">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/d7be6406-cb23-4882-88bd-67868dcde29a.jpg?i_type=t_100x1000" name="Dr. Vijayaraghavan">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Vijayaraghavan</b></h1>
+			<p>
+				MBBS, MD - Anaesthesiology<br>
+				General Physician, Anesthesiologist, Pain Management Specialist<br>
+				Experience : 9 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('VJ').style.display='block' " style="height: 20px;">More...</button>
+		<div id="VJ" style="display: none;">
+			<p>
+				Highly motivated and driven, Dr K.Vijayaraghavan is a competent pain specialist and proficient academician. He did his post-graduate degree in MD Anaesthesiology from a prestigious Institution. He further gained experience by working at pain medicine department at University of Texas Medical Branch, USA. Subsequently he completed fellowship in pain management from Aesculap Academy, Germany. He was extensively trained by Prof.Ranganathan (Houston,USA), Prof.G P Dureja (AIIMS, Delhi) in interventional pain management.<br>
+
+				His specialties include management of knee pain, spine pain, joint pain, regenerative medicine, cancer pain and neuropathic pain.
+			</p>
+			<button type="button" onclick="document.getElementById('VJ').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="c">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/73091a7e-50ee-4d44-a7ba-259956b2283d.jpg?i_type=t_100x100" alt="Dr. Gaurav Thukran">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Gaurav Thukran</b></h1>
+			<p>
+				MD - Physician<br>
+				General Physician<br>
+				Experience : 6 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('GT').style.display='block' " style="height: 20px;">More...</button>
+		<div id="GT" style="display: none;">
+			<p>
+				Dr. Gaurav Thukran is a Doctor in Dwarka Sector 8, Delhi and has an experience of 6 years in this field. Dr. Gaurav Thukran practices at Ashirwad Poly Clinic in Dwarka Sector 8, Delhi. He completed MD - Physician from Tver State Medical University in 2014.<br>
+
+				Some of the services provided by the doctor are: Viral Fever Treatment,Dengue Fever Treatment,Diabetes Management and Hypertension Treatment etc.
+			</p>
+			<button type="button" onclick="document.getElementById('GT').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="d">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/41d81002-dc74-45cf-9ad5-6332370372c6.jpg?i_type=t_100x100" alt="Dr. Rahul Rai">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Rahul Rai</b></h1>
+			<p>DM - Hepatology, MBBS, MD - Medicine<br>
+			Hepatologist, Consultant Physician, Internal Medicine<br>
+			Experience : 19 years</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('RR').style.display='block' " style="height: 20px;">More...</button>
+		<div id="RR" style="display: none;">
+			<p>
+				Prof Dr. Rahul Rai is the first and only dedicated hepatologist (liver disease specialist) and liver transplant physician of Rajasthan. He was earlier associated with Medanta Hospital, Gurgaon and did his initial training in PGI, chandigarh in management of of liver diseases and liver transplant. He is former HOD, Department of Medicine, NSCB (Govt.) Medical College, Jabalpur. He has recently started extending his services in Jaipur and Rajasthan.
+			</p>
+			<button type="button" onclick="document.getElementById('RR').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="e">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/951cffb2-0956-46fe-8287-4b5292a15e9f.jpg?i_type=t_100x100" alt="Dr. Debjyoti Dutta">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Debjyoti Dutta</b></h1>
+			<p>
+				MBBS, MD - Anaesthesiology<br>
+				Pain Management Specialist, General Physician<br>
+				Experience : 17 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('DD').style.display='block' " style="height: 20px;">More...</button>
+		<div id="DD" style="display: none;">
+			<p>
+				Dr. Debjyoti Dutta is a leading Pain Specialist of the country practicing most of the 'Interventional Pain Management' procedures. After passing MBBS with honors from Medical College Kolkata in 2003, he did MD from King Georges Medical University. Later he did Fellowship in interventional pain management from Aesculap Academy and RG Kar Medical College under The West Bengal University Of Health Sciences. He passed Fellowship in Interventional Pain Practice from WIP (USA) from Miami, Florida.<br>
+
+				He worked as Interventional Pain Physician in an excellence in Pain Practice awarded center by World Institute of Pain for long. He visited many pain clinics in India & abroad. He was the Assistant Professor, and In-Charge of Pain Clinic at College of Medicine and JNM Hospital Kalyani under West Bengal University of Health Sciences.<br>
+
+				Presently he is the pain management consultant at Samobathi, Kolkata and Fortis Hospital Anandapur Kolkata.<br>
+
+				He is a teacher of Aesculap Academy pain management courses, at Daradia Pain Clinic Kolkata, training both theoretical and practical aspects of interventional pain management to both Indian and international doctors.
+			</p>
+			<button type="button" onclick="document.getElementById('DD').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="f">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/5a266e50-8972-4fe3-833d-edccda3f6a67.jpg?i_type=t_100x100" alt="Dr. Prashant Kini">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Prashant Kini</b></h1>
+			<p>
+				MBBS, MD - Medicine<br>
+				Consultant Physician<br>
+				Experience : 10 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('PK').style.display='block' " style="height: 20px;">More...</button>
+		<div id="PK" style="display: none;">
+			<p>
+				Dr. Prashant Kini is a Consultant Physician, Diabetologist, Thyroidologist , general endocrinologist and consultant in reproductive endocrinology and infertility.<br>
+
+				Has completed a number of courses in Diabetes and Thyroid management.<br>
+
+				Done diploma in diabetes management by middlesex university ,UK.<br>
+
+				Done post graduate course in diabetes management by boston university,US.<br>
+				Done post graduate course in infertility and reproductive endocrinology by ACOG(USA).<br>
+				Done management of thyroid disorders by indian thyroid society and american thyroid association and PHFI(INDIA).<br>
+				Member of U.S Endocrine Society.<br>
+				Member of American Thyroid Association.<br>
+				Member of American Association of Clinical Endocrinologists.<br>
+				Member of American Diabetes Association. Member of american college of physicians.<br>
+				Member of indian thyroid society.
+			</p>
+			<button type="button" onclick="document.getElementById('PK').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="tell" style="display: none;">
+		<h1>Share your information</h1>
+		<p>As told here at Saransh Health Service we not only aim to tell you about diseases. We provide you the facility to share your information to the concerned doctor. So that we can get your appointment fixed. Also we will try at our level best to provide basic information regarding prevention and cure about your disease through e-mails and text messages.</p>
+		<div class="bloody">
+			<form name="form"  method="post" onsubmit="return validate()">
+				<h1>Kindly fill the form</h1>
+				<label for="name">Name :</label><br>
+				<input type="text" name="name" placeholder="your name"><br>
+				<label for="age">Age :</label><br>
+				<input type="text" name="age" placeholder="your age"><br>
+				<label for="email">Email Id :</label><br>
+				<input type="type=text" name="email" placeholder="your email id"><br>
+				<label for="number">Contact number :</label><br>
+				<input type="type=text" name="number" placeholder="your mobile number"><br>
+				<label for="address">Permanent address :</label><br>
+				<input type="type=text" name="address" placeholder="your home address"><br>
+				<input id="submit" type="submit" value="Submit" >
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="doc.js"></script>
+</body>
+</html>

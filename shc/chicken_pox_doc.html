@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doctor details</title>
+	<link rel="stylesheet" type="text/css" href="doc.css">
+</head>
+<body>
+	
+	<p>Select your city</p>
+	<label for="doctors"></label>
+	<select id="search" name="consulting">
+		<option value="bangalore">Bangalore</option>
+		<option value="chennai">Chennai</option>
+		<option value="delhi">Delhi</option>
+		<option value="jaipur">Jaipur</option>
+		<option value="kolkata">Kolkata</option>
+		<option value="mumbai">Mumbai</option>		
+	</select>
+	<button type="button" onclick="myfunction()" id="enter">Enter</button>
+	<div id="a">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/cf4b3e60-13a9-494c-ac37-aa4d08f32005.jpg?i_type=t_100x100" alt="Dr. Regina Joseph">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Regina Joseph</b></h1>
+			<p>
+				MBBS, MD<br>
+				General Physician, General Practitioner, Consultant Physician<br>
+				Experience : 26 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('RJ').style.display='block' " style="height: 20px;">More...</button>
+		<div id="RJ" style="display: none;">
+			<p>
+				Dr. Regina Joseph is a General Physician,General Practitioner and Consultant Physician in HSR Layout, Bangalore and has an experience of 26 years in these fields. Dr. Regina Joseph practices at S R Clinic in HSR Layout, Bangalore. She completed MBBS from St. John Medical College, Bangalore, Mumbai in 1992 and MD - General Medicine from Bangalore Medical College and Research Institute, Bangalore in 1999.<br>
+
+				She is a member of Indian Medical Association (IMA) and Karnataka Orthopaedic Association. Some of the services provided by the doctor are: Health control,Medical Advisor,Migraine Treatment,Fibromyalgia Treatment and Constipation Treatment etc.
+			</p>
+			<button type="button" onclick="document.getElementById('RJ').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="b">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/b15202a5-43c1-4745-9f0b-5c57b10e0849.jpg?i_type=t_100x100" name="Dr. M Hema">
+		</div>
+		<div id="name">
+			<h1><b>Dr. M Hema</b></h1>
+			<p>
+				MBBS, MD - General Medicine, DM - Rheumatology<br>
+				Rheumatologist, General Physician<br>
+				Experience : 19 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('MH').style.display='block' " style="height: 20px;">More...</button>
+		<div id="MH" style="display: none;">
+			<p>
+				Dr. M Hema is a Rheumatologist and General Physician in Manapakkam, Chennai and has an experience of 19 years in these fields. Dr. M Hema practices at MIOT International Hospital in Manapakkam, Chennai. She completed MBBS from Chengalpattu Medical College in 2001,MD - General Medicine from Stanley Medical College & Hospital , Chennai in 2010 and DM - Rheumatology from Madras Medical Mission, Chennai in 2014.<br>
+
+				She is a member of Indian Rheumatology Association.
+			</p>
+			<button type="button" onclick="document.getElementById('MH').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="c">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/b56d6a5a-73d2-4384-b955-8d84b25bb6fb.jpg?i_type=t_100x100" alt="Dr. Yatin Kukreja">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Yatin Kukreja</b></h1>
+			<p>
+				MD - Physician<br>
+				General Physician<br>
+				Experience : 16 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('YD').style.display='block' " style="height: 20px;">More...</button>
+		<div id="YD" style="display: none;">
+			<p>
+				Dr. Yatin Kukreja is a General Physician and with expertise in handling critical emergencies. He holds a vast experience of more than 14 yrs in this field. He is associated with Artemis Hospital, as an Associate Consultant, for the last 5 years.<br>
+
+				Dr. Kukreja has been awarded the certification from the Public Health Foundation of India, for the Evidence-Based Diabetes Management. Believes that Managing diabetes is teamwork and not just a prescription.<br>
+
+				He is also a certified instructor of the American Heart Association, teaching Basic Life Support and Advanced Cardiac Life Support in various prestigious institutes.
+			</p>
+			<button type="button" onclick="document.getElementById('YD').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="d">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/fb7018ae-ddaa-470e-bb3f-7b2e728c9e6b.jpg?i_type=t_100x100" alt="Dr. Vikas Mittal">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Vikas Mittal</b></h1>
+			<p>MBBS, MD - General Medicine<br>
+			General Physician<br>
+			Experience : 13 years</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('VM').style.display='block' " style="height: 20px;">More...</button>
+		<div id="VM" style="display: none;">
+			<p>
+				Dr. Vikas Mittal is a Doctor in Sodala, Jaipur and has an experience of 10 years in this field. Dr. Vikas Mittal practices at Carewell Family Clinic in Sodala, Jaipur and Sanjeevani Hospital in Sodala, Jaipur. He completed MBBS from S M S Medical College in 2003 and MD - Internal Medicine from S M S Medical College in 2007.<br>
+
+				He is a member of Indian Medical Association (IMA).
+			</p>
+			<button type="button" onclick="document.getElementById('VM').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="e">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/55cf2348-a587-4b3b-97cf-a8839ce0b658.jpg?i_type=t_100x100" alt="Dr. Anirban Chakraborty">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Anirban Chakraborty</b></h1>
+			<p>
+				MRCP (UK), Diploma in Geriatric Medicine, MBBS<br>
+				Diabetologist, Internal Medicine, General Physician<br>
+				Experience : 20 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('AC').style.display='block' " style="height: 20px;">More...</button>
+		<div id="AC" style="display: none;">
+			<p>
+				Dr. Anirban Chakraborty is a leading physician, cardiovascular and diabetes specialist in Kolkata who is trained to an international standard in UK and USA. He practices diabetes, cardiovascular medicine, respiratory medicine and internal medicine in Kolkata. Dr. Chakraborty works as a senior consultant in R.N Tagore Hospital in Kolkata and Narayana Health Super Specialty Hospital. He also works as a Consultant part-time in the National Health Service in England. You can rest assured that by consulting him you will get the most modern, latest and safest treatment in the world, here in Kolkata.<br>
+
+				Dr. Anirban Chakraborty had worked as a substantive consultant in the UK (total for three years) after completing his specialist registrar's training (CCST or CCT). He obtained the prestigious FRCP degree at the age of 37 from the Royal College of Physicians UK. He still maintains the high standard required to work in the UK (he does that for a few weeks every year as a consultant) and keeps himself updated by attending Royal College Conferences in the UK, among others.<br>
+
+				He is only a handful of doctors in the whole of India to have achieved the above credentials of having a specialty training from the UK (CCST), the highest degree for physicians in the UK (FRCP) and the experience of working as a substantive consultant in NHS UK. Dr. Chakraborty has extensive experience of over 13 years of working in the UK and USA, where he went with the prestigious Fogarty Scholarship in 2002. Dr. Chakraborty has worked as a substantive consultant in the Dudley Group Of Hospitals, and later as a senior consultant in internal medicine at Queen Elizabeth Hospital Birmingham; one of the largest super specialty hospitals in the world. He promises to provide an honest, competent and world-class medical consultation in Kolkata by following the latest international guidelines and protocols.<br>
+
+				Dr. Anirban Chakraborty is still working part-time as a Consultant in NHS UK where he travels regularly. Getting his opinion on your medical problem will give you the peace of mind of getting the latest and safest view of an internationally recognized and trained doctor without the hassle of traveling out of Kolkata
+			</p>
+			<button type="button" onclick="document.getElementById('AC').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="f">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/5a266e50-8972-4fe3-833d-edccda3f6a67.jpg?i_type=t_100x100" alt="Dr. Prashant Kini">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Prashant Kini</b></h1>
+			<p>
+				MBBS, MD - Medicine<br>
+				Consultant Physician<br>
+				Experience : 10 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('PK').style.display='block' " style="height: 20px;">More...</button>
+		<div id="PK" style="display: none;">
+			<p>
+				Dr. Prashant Kini is a Consultant Physician, Diabetologist, Thyroidologist , general endocrinologist and consultant in reproductive endocrinology and infertility.<br>
+
+				Has completed a number of courses in Diabetes and Thyroid management.<br>
+
+				Done diploma in diabetes management by middlesex university ,UK.<br>
+
+				Done post graduate course in diabetes management by boston university,US.<br>
+				Done post graduate course in infertility and reproductive endocrinology by ACOG(USA).<br>
+				Done management of thyroid disorders by indian thyroid society and american thyroid association and PHFI(INDIA).<br>
+				Member of U.S Endocrine Society.<br>
+				Member of American Thyroid Association.<br>
+				Member of American Association of Clinical Endocrinologists.<br>
+				Member of American Diabetes Association. Member of american college of physicians.<br>
+				Member of indian thyroid society.
+			</p>
+			<button type="button" onclick="document.getElementById('PK').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="tell" style="display: none;">
+		<h1>Share your information</h1>
+		<p>As told here at Saransh Health Service we not only aim to tell you about diseases. We provide you the facility to share your information to the concerned doctor. So that we can get your appointment fixed. Also we will try at our level best to provide basic information regarding prevention and cure about your disease through e-mails and text messages.</p>
+		<div class="bloody">
+			<form name="form"  method="post" onsubmit="return validate()">
+				<h1>Kindly fill the form</h1>
+				<label for="name">Name :</label><br>
+				<input type="text" name="name" placeholder="your name"><br>
+				<label for="age">Age :</label><br>
+				<input type="text" name="age" placeholder="your age"><br>
+				<label for="email">Email Id :</label><br>
+				<input type="type=text" name="email" placeholder="your email id"><br>
+				<label for="number">Contact number :</label><br>
+				<input type="type=text" name="number" placeholder="your mobile number"><br>
+				<label for="address">Permanent address :</label><br>
+				<input type="type=text" name="address" placeholder="your home address"><br>
+				<input id="submit" type="submit" value="Submit" >
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="doc.js"></script>
+</body>
+</html>

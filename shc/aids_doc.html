@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Doctor details</title>
+	<link rel="stylesheet" type="text/css" href="doc.css">
+</head>
+<body>
+	
+	<p>Select your city</p>
+	<label for="doctors"></label>
+	<select id="search" name="consulting">
+		<option value="bangalore">Bangalore</option>
+		<option value="chennai">Chennai</option>
+		<option value="delhi">Delhi</option>
+		<option value="jaipur">Jaipur</option>
+		<option value="kolkata">Kolkata</option>
+		<option value="mumbai">Mumbai</option>		
+	</select>
+	<button type="button" onclick="myfunction()" id="enter">Enter</button>
+	<div id="a">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/60776423-7e41-48a9-a1d9-8b1da12d70b9.jpg?i_type=t_100x100" alt="Dr. Anand P R">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Anand P R</b></h1>
+			<p>
+				Fellowship in Sexology and Psychosexual Medicine<br>
+				MBBS, Fellowship in Sexual Medicine Sexologist<br>
+				Experience : 14 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('APR').style.display='block' " style="height: 20px;">More...</button>
+		<div id="APR" style="display: none;">
+			<p>
+				Dr. Anand has completed MBBS in Government Medical College, Bellary and MD in Grants Medical College, Mumbai. He has a diverse experience of more than 10 Years in Sexology and is very dedicated to his field. His vision is to treat as many patients with sexual problems as possible and touch as many lives as possible with his work.
+			</p>
+			<button type="button" onclick="document.getElementById('APR').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="b">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/dbb142d7-ed6d-4258-96ec-e9d19f6b9ada.jpg?i_type=t_100x100" name="Dr. Shah Dupesh">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Shah Dupesh</b></h1>
+			<p>
+				MBBS, FICS (Andrology)<br>
+				Andrologist, Sexologist<br>
+				Experience : 8 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('SD').style.display='block' " style="height: 20px;">More...</button>
+		<div id="SD" style="display: none;">
+			<p>
+				Dr. Shah Dupesh's passion simply lies in helping couples who have problems with their sexual and reproductive health. He has altruistically helped 1000's of couples throughout his professional career, and many of them have conceived pretty normally without any major treatments. After all, everybody has a right to prosperous and peaceful married life.
+			</p>
+			<button type="button" onclick="document.getElementById('SD').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="c">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/ed8dfffa-b3bf-40f2-84cd-31cffccfdbc6.jpg?i_type=t_100x100" alt="Dr. Anuneet Sabharwal">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Anuneet Sabharwal</b></h1>
+			<p>
+				MBBS, M.D. (Psychiatry)<br>
+				Psychiatrist, Sexologist, Addiction Psychiatrist<br>
+				Experience : 9 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('AS').style.display='block' " style="height: 20px;">More...</button>
+		<div id="AS" style="display: none;">
+			<p>
+				India's leading De-addiction and Mental Health Expert, Dr. Anuneet Sabharwal frequently appears on Newspapers, Magazines, Television and Radio channels as an expert, for discussions on various mental health issues. He is visible across the country at schools, colleges and conferences, sharing his experience and interacting with students and professionals on such matters.<br>
+				
+				Dr. Anuneet Sabharwal first studied the human mind when he took up Psychology as a subject in High School. After finishing his schooling from Modern School, Barakhamba Road in 2005, Dr. Sabharwal decided to further his passion for Psychology and Mental Health. Coming from a family of doctors, Dr. Sabharwal went on to pursue MBBS (Bachelor of Medicine Bachelor of Surgery) from Santosh Medical College, Ghaziabad. After graduating from medical school in 2012, he joined MD (Doctor of Medicine) Psychiatry the same year, at KLE University, Belgaum. It was then that Dr. Sabharwal had his first real life clinical experience with the fascinating field of mental health.<br>
+
+				During his MD, Dr. Sabharwal was also posted at India's foremost public mental health centre, NIMHANS, Bangalore. He then joined Govind Ballabh Pant Hospital in 2015, after completing his MD, where he worked as a Senior Resident. With an OPD load of more than 60 patients per day, and an IPD care load of a minimum 10 patients at all times, he gained a vast experience in managing both acute and chronic cases. Dr. Sabharwal is also the Consultant Psychiatrist at Franks Wellness De-addiction Centre Kavi Nagar, Ghaziabad, where he overlooks the rehabilitation of patients suffering from substance use problems and addiction.<br>
+
+				His experience as a mental health professional has ranged from not only managing people with severely debilitating Psychiatric illnesses along with their caregivers and friends, but also, advising those who were simply going through stress in any form or shape. India has a largely youthful population, and it is imperative that the youth of this country be in tune with their mental health, and seek help at the earliest
+			</p>
+			<button type="button" onclick="document.getElementById('AS').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="d">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/0dd07d29-9b2f-4ee5-bc9e-6ff46c537205.jpg?i_type=t_100x100" alt="Dr.Sanjay Jain">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Sanjay Jain</b></h1>
+			<p>MBBS, M.D.(Psychiatry)<br>
+			Psychiatrist, Sexologist, Addiction Psychiatrist<br>
+			Experience : 15 years</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('SJ').style.display='block' " style="height: 20px;">More...</button>
+		<div id="SJ" style="display: none;">
+			<p>
+				Dr Sanjay Jain is a psychiatrist in jaipur and has an experience of more than 13 years in this field.He started his medical education in 1998 and has completed MBBS and MD in psychiatry from SMS medical college,  jaipur. He has done more than 15 international research studies on various psychiatric disorders. He has worked in 5 international  research projects in Singapore.He has also been associated with Bracket Neurosciences, Pennsylvania, USA. Some of the services provided by the doctor are -Depression, Anxiety, OCD, De-addiction, Bipolar Disorder, Schizophrenia, Sexual problems, Dementia, Behavior problems in childrens and Old age, Anger control etc
+			</p>
+			<button type="button" onclick="document.getElementById('SJ').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="e">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/58e9347c-17f2-4ddb-bdf2-01f004d23bc4.jpg?i_type=t_100x100" alt="Dr. Indranil Saha">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Indranil Saha</b></h1>
+			<p>
+				MBBS, M.D. (Psychiatry), DPM (Psychiatry)<br>
+				Neuropsychiatrist, Sexologist<br>
+				Experience : 23 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('IS').style.display='block' " style="height: 20px;">More...</button>
+		<div id="IS" style="display: none;">
+			<p>
+				Dr. Indranil Saha is a Neuropsychiatrist, Adolescent and Child Psychiatrist and Geriatric Psychiatrist. He is also an expert in the field of Psychosexual Medicine and experienced Sex-Therapist as well in Kolkata. He has an experience of more than 20 years. He practices at Neuromind Clinic in Garia BT, Kolkata, North City Hospital & Neuro Institute at Ultadanga, Kolkata and Kundu Medical, Kolkata. He completed MBBS from NRS Medical College And Hospital in 1997, MD - Psychiatry from Central Institute Of Psychiatry, Ranchi in 2008 and Diploma in Psychological medicine from Central Institute Of Psychiatry, Ranchi in 2000. He is a member of Indian Psychiatric Society. He is a renowned Neuropsychiatrist from West Bengal.
+			</p>
+			<button type="button" onclick="document.getElementById('IS').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="f">
+		<div id="image">
+			<img src="https://imagesx.practo.com/providers/d5e39151-29d9-4374-acc5-71bfaf7a9d35.jpg?i_type=t_100x100" alt="Dr. Amit Vora">
+		</div>
+		<div id="name">
+			<h1><b>Dr. Amit Vora</b></h1>
+			<p>
+				BHMS, M. D. Hom. (Material Medica)<br>
+				Homoeopath, Sexologist<br>
+				Experience : 16 years
+			</p>
+		</div>
+		<button type="button"  onclick="document.getElementById('AV').style.display='block' " style="height: 20px;">More...</button>
+		<div id="AV" style="display: none;">
+			<p>
+				Dr. Amit Vora is Graduate in Homoeopathy from Mumbai in the year 2004. Started his clinic from a small room in 2004 now it has developed into 2 full fledged clinics at LBS road Bhandup & Paanchpakahadi Thane. He is a young & Dynamic doctor who has worked with many senior doctors in Mumbai on treating many serious cases with Homoeopathy. He is a regular speaker at many medical conferences & has presented articles in various Homoeopathic medical journals.<br>
+
+				He was the Course coordinator of Maharashtra University of Health Sciences (MUHS) recognized Certification & Fellowship course In Advanced Homoeopathy from 2014 to 2015.<br>
+
+				Dr. Amit Vora is also the Secretary of Indian Institute of Homoeopathic Physicians Mumbai since 2008, which regularly conducts medical conferences towards continued medical education & research & development in Homoeopathy.<br>
+
+				He has also served as a Course coordinator for Hahnemann college of Homoeopathy, London’s reputed Post Graduate course in Homoeopathy, PG HOM (London).
+			</p>
+			<button type="button" onclick="document.getElementById('AV').style.display='none'">Shrink.</button>
+		</div>
+	</div>
+	<div id="tell" style="display: none;">
+		<h1>Share your information</h1>
+		<p>As told here at Saransh Health Service we not only aim to tell you about diseases. We provide you the facility to share your information to the concerned doctor. So that we can get your appointment fixed. Also we will try at our level best to provide basic information regarding prevention and cure about your disease through e-mails and text messages.</p>
+		<div class="bloody">
+			<form name="form"  method="post" onsubmit="return validate()">
+				<h1>Kindly fill the form</h1>
+				<label for="name">Name :</label><br>
+				<input type="text" name="name" placeholder="your name"><br>
+				<label for="age">Age :</label><br>
+				<input type="text" name="age" placeholder="your age"><br>
+				<label for="email">Email Id :</label><br>
+				<input type="type=text" name="email" placeholder="your email id"><br>
+				<label for="number">Contact number :</label><br>
+				<input type="type=text" name="number" placeholder="your mobile number"><br>
+				<label for="address">Permanent address :</label><br>
+				<input type="type=text" name="address" placeholder="your home address"><br>
+				<input id="submit" type="submit" value="Submit" >
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="doc.js"></script>
+</body>
+</html>

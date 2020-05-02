@@ -1,0 +1,22 @@
+h1
+{
+	font-size: 42px;
+	font-family: bookman, serif;
+}
+p, li, ul
+{
+	font-family: Lucida, sans-serif;
+	text-align: justify;
+	font-size: 20px;
+}
+a
+{
+	text-decoration: none;
+}
+body
+{
+	background-image: url('back.jpg');
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
